@@ -1,0 +1,160 @@
+[
+  {
+    "category_name": "Core Yoga",
+    "english_names": [
+      "Boat",
+      "Half Boat",
+      "Cat",
+      "Chair",
+      "Crow",
+      "Dolphin",
+      "Plank",
+      "Side Plank"
+    ]
+  },
+  {
+    "category_name": "Seated Yoga",
+    "english_names": [
+      "Boat",
+      "Half Boat",
+      "Butterfly",
+      "Seated Forward Bend",
+      "Lotus",
+      "Half Lord of the Fishes",
+      "Splits",
+      "Side Splits"
+    ]
+  },
+  {
+    "category_name": "Strengthening Yoga",
+    "english_names": [
+      "Boat",
+      "Half Boat",
+      "Chair",
+      "Dolphin",
+      "Downward-Facing Dog",
+      "Extended Side Angle",
+      "Forearm Stand",
+      "Handstand",
+      "Plank",
+      "Pyramid",
+      "Triangle",
+      "Warrior One",
+      "Warrior Two",
+      "Warrior Three",
+      "Wheel"
+    ]
+  },
+  {
+    "category_name": "Chest Opening Yoga",
+    "english_names": [
+      "Bow",
+      "Camel",
+      "Cow",
+      "Sphinx",
+      "Upward-Facing Dog",
+      "Wheel",
+      "Wild Thing"
+    ]
+  },
+  {
+    "category_name": "Backbend Yoga",
+    "english_names": [
+      "Bow",
+      "Camel",
+      "Cow",
+      "Pigeon",
+      "King Pigeon",
+      "Sphinx",
+      "Upward-Facing Dog",
+      "Wheel"
+    ]
+  },
+  {
+    "category_name": "Forward Bend Yoga",
+    "english_names": [
+      "Butterfly",
+      "Child's Pose",
+      "Downward-Facing Dog",
+      "Forward Bend with Shoulder Opener",
+      "Pyramid",
+      "Seated Forward Bend",
+      "Standing Forward Bend",
+      "Side Splits"
+    ]
+  },
+  {
+    "category_name": "Hip Opening Yoga",
+    "english_names": [
+      "Butterfly",
+      "Child's Pose",
+      "Eagle",
+      "Extended Hand to Toe",
+      "King Pigeon",
+      "Half Lord of the Fishes",
+      "Side Splits"
+    ]
+  },
+  {
+    "category_name": "Standing Yoga",
+    "english_names": [
+      "Chair",
+      "Crescent Lunge",
+      "Dolphin",
+      "Downward-Facing Dog",
+      "Eagle",
+      "Extended Hand to Toe",
+      "Extended Side Angle",
+      "Half-Moon",
+      "Handstand",
+      "Low Lunge",
+      "Pyramid",
+      "Reverse Warrior",
+      "Garland Pose",
+      "Crescent Moon",
+      "Tree",
+      "Triangle",
+      "Warrior One",
+      "Warrior Two",
+      "Warrior Three"
+    ]
+  },
+  {
+    "category_name": "Restorative Yoga",
+    "english_names": [
+      "Child's Pose",
+      "Corpse"
+    ]
+  },
+  {
+    "category_name": "Arm Balance Yoga",
+    "english_names": [
+      "Crow",
+      "Plank",
+      "Side Plank",
+      "Wild Thing"
+    ]
+  },
+  {
+    "category_name": "Balancing Yoga",
+    "english_names": [
+      "Eagle",
+      "Extended Hand to Toe",
+      "Half-Moon",
+      "Handstand",
+      "Shoulder Stand",
+      "Side Plank",
+      "Crescent Moon",
+      "Tree",
+      "Warrior Three"
+    ]
+  },
+  {
+    "category_name": "Inversion Yoga",
+    "english_names": [
+      "Forearm Stand",
+      "Plow",
+      "Shoulder Stand"
+    ]
+  }
+]

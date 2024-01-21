@@ -1,0 +1,454 @@
+[
+  {
+    "category_name": "Core Yoga",
+    "poses_data": [
+      {
+        "english_name": "Boat",
+        "pose_benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.  Helps relieve stress.  Improves digestion."
+      },
+      {
+        "english_name": "Half Boat",
+        "pose_benefits": "Strengthens the abdomen, hip flexors and spine.  Stimulates the kidneys, thyroid, prostate glands and intestines.  Helps relieve stress.  Improves digestion."
+      },
+      {
+        "english_name": "Cat",
+        "pose_benefits": "Relieves the spine and neck. Energizes the body."
+      },
+      {
+        "english_name": "Chair",
+        "pose_benefits": "Strengthens the ankles, thighs, calves, and spine.  Stretches shoulders and chest.  Stimulates the abdominal organs, diaphragm, and heart.  Reduces flat feet.  Energizes the entire body."
+      },
+      {
+        "english_name": "Crow",
+        "pose_benefits": "Strengthens arms and wrists.  Stretches the upper back.  Strengthens the abdominal muscles.  Opens the groin.  Tones the abdominal organs."
+      },
+      {
+        "english_name": "Dolphin",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression. Energizes the body. Stretches the shoulders, hamstrings, calves, arches, and hands. Strengthens the arms and legs. Helps relieve the symptoms of menopause. Relieves menstrual discomfort when done with the head supported. Helps prevent osteoporosis. Improves digestion. Relieves headache, insomnia, back pain, and fatigue. Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis. Warms up the ankles and the toes."
+      },
+      {
+        "english_name": "Plank",
+        "pose_benefits": "Strengthens the arms, wrists, and spine.  Tones the abdomen."
+      },
+      {
+        "english_name": "Side Plank",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Stretches the shoulders, hamstrings, calves, and arches.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica."
+      }
+    ]
+  },
+  {
+    "category_name": "Seated Yoga",
+    "poses_data": [
+      {
+        "english_name": "Boat",
+        "pose_benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.  Helps relieve stress.  Improves digestion."
+      },
+      {
+        "english_name": "Half Boat",
+        "pose_benefits": "Strengthens the abdomen, hip flexors and spine.  Stimulates the kidneys, thyroid, prostate glands and intestines.  Helps relieve stress.  Improves digestion."
+      },
+      {
+        "english_name": "Butterfly",
+        "pose_benefits": "Opens the hips and groins.  Stretches the shoulders, rib cage and back.  Stimulates the abdominal organs, lungs and heart."
+      },
+      {
+        "english_name": "Seated Forward Bend",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Stretches the spine, shoulders and hamstrings.  Stimulates the liver, kidneys, ovaries and uterus.  Improves digestion.  Helps relieve the symptoms of menopause and menstrual discomfort.  Soothes headache and anxiety.  Reduces fatigue.  Therapeutic for high blood pressure, infertility, insomnia and sinusitis.  Traditional texts say that Paschimottanasana increases appetite, reduces obesity and cures diseases."
+      },
+      {
+        "english_name": "Lotus",
+        "pose_benefits": "Opens the hips, groin and stretches the knees, ankles and thighs.  Strengthens the back and calms the mind, reduces stress and anxiety.  Improves circulation and blood flow in the pelvis."
+      },
+      {
+        "english_name": "Half Lord of the Fishes",
+        "pose_benefits": "Stretches the shoulders, the chest, the thighs, the groins, and the abdomen.  Strengthens the legs and the ankles.  Improves balance."
+      },
+      {
+        "english_name": "Splits",
+        "pose_benefits": "Stretches the thighs, hamstrings, and groin.  Stimulates the abdominal organs."
+      },
+      {
+        "english_name": "Side Splits",
+        "pose_benefits": "Stretches the insides and backs of the legs.  Stimulates the abdominal organs.  Strengthens the spine.  Calms the brain.  Releases groin."
+      }
+    ]
+  },
+  {
+    "category_name": "Strengthening Yoga",
+    "poses_data": [
+      {
+        "english_name": "Boat",
+        "pose_benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.  Helps relieve stress.  Improves digestion."
+      },
+      {
+        "english_name": "Half Boat",
+        "pose_benefits": "Strengthens the abdomen, hip flexors and spine.  Stimulates the kidneys, thyroid, prostate glands and intestines.  Helps relieve stress.  Improves digestion."
+      },
+      {
+        "english_name": "Chair",
+        "pose_benefits": "Strengthens the ankles, thighs, calves, and spine.  Stretches shoulders and chest.  Stimulates the abdominal organs, diaphragm, and heart.  Reduces flat feet.  Energizes the entire body."
+      },
+      {
+        "english_name": "Dolphin",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression. Energizes the body. Stretches the shoulders, hamstrings, calves, arches, and hands. Strengthens the arms and legs. Helps relieve the symptoms of menopause. Relieves menstrual discomfort when done with the head supported. Helps prevent osteoporosis. Improves digestion. Relieves headache, insomnia, back pain, and fatigue. Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis. Warms up the ankles and the toes."
+      },
+      {
+        "english_name": "Downward-Facing Dog",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Energizes the body.  Stretches the shoulders, neck, hamstrings, calves, arches, and hands.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Relieves menstrual discomfort when done with the head supported.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis."
+      },
+      {
+        "english_name": "Extended Side Angle",
+        "pose_benefits": "Strengthens and stretches the legs, knees, and ankles.  Stretches the groin, spine, waist, chest, lungs, and shoulders. Stimulates abdominal organs. Increases stamina."
+      },
+      {
+        "english_name": "Forearm Stand",
+        "pose_benefits": "Strengthens arms and shoulders.  Improves focus and balance.  Stretches the upper and lower back.  Strengthens the abdominal muscles.  Tones the abdominal area."
+      },
+      {
+        "english_name": "Handstand",
+        "pose_benefits": "Strengthens the shoulders, arms and wrists.  Stretches the belly.  Improves sense of balance.  Calms the brain and helps relieve stress and mild depression."
+      },
+      {
+        "english_name": "Plank",
+        "pose_benefits": "Strengthens the arms, wrists, and spine.  Tones the abdomen."
+      },
+      {
+        "english_name": "Pyramid",
+        "pose_benefits": "Calms the brain.  Stretches the spine, the shoulders, the hips and the hamstrings.  Strengthens the legs.  Stimulates the abdominal organs.  Improves posture and sense of balance.  Improves digestion."
+      },
+      {
+        "english_name": "Triangle",
+        "pose_benefits": "Stretches and strengthens the thighs, knees, and ankles.  Stretches the hips, groin, hamstrings, calves, shoulders, chest, and spine.  Stimulates the abdominal organs.  Helps relieve stress.  Improves digestion.  Helps relieve the symptoms of menopause.  Relieves backache, especially through second trimester of pregnancy.  Therapeutic for anxiety, flat feet, infertility, neck pain, osteoporosis, and sciatica."
+      },
+      {
+        "english_name": "Warrior One",
+        "pose_benefits": "Stretches the chest, lungs, shoulders, neck, belly and groin (psoas).  Strengthens the shoulders, arms and back muscles.  Strengthens and stretches the thighs, calves and ankles."
+      },
+      {
+        "english_name": "Warrior Two",
+        "pose_benefits": "Strengthens and stretches the legs and ankles.  Stretches the groin, chest, lungs, and shoulders.  Stimulates abdominal organs.  Increases stamina.  Relieves backaches, especially through second trimester of pregnancy.  Therapeutic for carpal tunnel syndrome, flat feet, infertility, osteoporosis, and sciatica."
+      },
+      {
+        "english_name": "Warrior Three",
+        "pose_benefits": "Strengthens the ankles and legs.  Strengthens the shoulders and muscles of the back.  Tones the abdomen.  Improves balance and posture."
+      },
+      {
+        "english_name": "Wheel",
+        "pose_benefits": "Strengthens the arms, wrists, legs, buttocks, abs, and spine.  Stimulates the thyroid and pituitary.  Increases energy and counteracts depression.  Therapeutic for asthma, back pain, infertility, and osteoporosis."
+      }
+    ]
+  },
+  {
+    "category_name": "Chest Opening Yoga",
+    "poses_data": [
+      {
+        "english_name": "Bow",
+        "pose_benefits": "Stretches the entire front of the body, ankles, thighs and groins, abdomen and chest, and throat, and deep hip flexors (psoas).  Strengthens the back muscles.  Improves posture.  Stimulates the organs of the abdomen and neck."
+      },
+      {
+        "english_name": "Camel",
+        "pose_benefits": "Stretches the entire front of the body, the ankles, thighs and groins, abdomen and chest, and throat.  Stretches the deep hip flexors (psoas).  Strengthens back muscles.  Improves posture.  Stimulates the organs of the abdomen and neck."
+      },
+      {
+        "english_name": "Cow",
+        "pose_benefits": "Removes fatigue.  Improves breathing and the circulation of blood to the brain.  Rejuvenates the entire body."
+      },
+      {
+        "english_name": "Sphinx",
+        "pose_benefits": "Strengthens the spine.  Stretches the chest, the lungs, the shoulders and the abdomen.  Stimulates the abdominal organs.  Opens the heart and the lungs."
+      },
+      {
+        "english_name": "Upward-Facing Dog",
+        "pose_benefits": "Improves posture.  Strengthens the spine, arms, and wrists.  Stretches the chest, lungs, shoulders, and abdomen.  Firms the buttocks.  Stimulates abdominal organs.  Helps relieve mild depression, fatigue, and sciatica.  Therapeutic for asthma."
+      },
+      {
+        "english_name": "Wheel",
+        "pose_benefits": "Strengthens the arms, wrists, legs, buttocks, abs, and spine.  Stimulates the thyroid and pituitary.  Increases energy and counteracts depression.  Therapeutic for asthma, back pain, infertility, and osteoporosis."
+      },
+      {
+        "english_name": "Wild Thing",
+        "pose_benefits": "Stretches the chest, shoulders, back, and throat.  Strengthens and opens the hips, hip flexors, and thighs."
+      }
+    ]
+  },
+  {
+    "category_name": "Backbend Yoga",
+    "poses_data": [
+      {
+        "english_name": "Bow",
+        "pose_benefits": "Stretches the entire front of the body, ankles, thighs and groins, abdomen and chest, and throat, and deep hip flexors (psoas).  Strengthens the back muscles.  Improves posture.  Stimulates the organs of the abdomen and neck."
+      },
+      {
+        "english_name": "Camel",
+        "pose_benefits": "Stretches the entire front of the body, the ankles, thighs and groins, abdomen and chest, and throat.  Stretches the deep hip flexors (psoas).  Strengthens back muscles.  Improves posture.  Stimulates the organs of the abdomen and neck."
+      },
+      {
+        "english_name": "Cow",
+        "pose_benefits": "Removes fatigue.  Improves breathing and the circulation of blood to the brain.  Rejuvenates the entire body."
+      },
+      {
+        "english_name": "Pigeon",
+        "pose_benefits": "Stretches the hamstrings and quads.  If the elbow is used to push the thigh, it opens the hips as well."
+      },
+      {
+        "english_name": "King Pigeon",
+        "pose_benefits": "Stretches the thighs, groins (psoas), abdomen, chest, shoulders and neck.  Stimulates the abdominal organs.  Opens the shoulders and chest."
+      },
+      {
+        "english_name": "Sphinx",
+        "pose_benefits": "Strengthens the spine.  Stretches the chest, the lungs, the shoulders and the abdomen.  Stimulates the abdominal organs.  Opens the heart and the lungs."
+      },
+      {
+        "english_name": "Upward-Facing Dog",
+        "pose_benefits": "Improves posture.  Strengthens the spine, arms, and wrists.  Stretches the chest, lungs, shoulders, and abdomen.  Firms the buttocks.  Stimulates abdominal organs.  Helps relieve mild depression, fatigue, and sciatica.  Therapeutic for asthma."
+      },
+      {
+        "english_name": "Wheel",
+        "pose_benefits": "Strengthens the arms, wrists, legs, buttocks, abs, and spine.  Stimulates the thyroid and pituitary.  Increases energy and counteracts depression.  Therapeutic for asthma, back pain, infertility, and osteoporosis."
+      }
+    ]
+  },
+  {
+    "category_name": "Forward Bend Yoga",
+    "poses_data": [
+      {
+        "english_name": "Butterfly",
+        "pose_benefits": "Opens the hips and groins.  Stretches the shoulders, rib cage and back.  Stimulates the abdominal organs, lungs and heart."
+      },
+      {
+        "english_name": "Child's Pose",
+        "pose_benefits": "Gently stretches the hips, thighs, and ankles.  Calms the brain and helps relieve stress and fatigue.  Relieves back and neck pain when done with head and torso supported."
+      },
+      {
+        "english_name": "Downward-Facing Dog",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Energizes the body.  Stretches the shoulders, neck, hamstrings, calves, arches, and hands.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Relieves menstrual discomfort when done with the head supported.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis."
+      },
+      {
+        "english_name": "Forward Bend with Shoulder Opener",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Stimulates the liver and kidneys.  Stretches the hamstrings, calves, and hips.  Strengthens the thighs and knees.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and anxiety.  Relieves headache and insomnia.  Relieves headache and insomnia.  Opens the shoulders."
+      },
+      {
+        "english_name": "Pyramid",
+        "pose_benefits": "Calms the brain.  Stretches the spine, the shoulders, the hips and the hamstrings.  Strengthens the legs.  Stimulates the abdominal organs.  Improves posture and sense of balance.  Improves digestion."
+      },
+      {
+        "english_name": "Seated Forward Bend",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Stretches the spine, shoulders and hamstrings.  Stimulates the liver, kidneys, ovaries and uterus.  Improves digestion.  Helps relieve the symptoms of menopause and menstrual discomfort.  Soothes headache and anxiety.  Reduces fatigue.  Therapeutic for high blood pressure, infertility, insomnia and sinusitis.  Traditional texts say that Paschimottanasana increases appetite, reduces obesity and cures diseases."
+      },
+      {
+        "english_name": "Standing Forward Bend",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Stimulates the liver and kidneys.  Stretches the hamstrings, calves, and hips.  Strengthens the thighs and knees.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and anxiety.  Relieves headache and insomnia."
+      },
+      {
+        "english_name": "Side Splits",
+        "pose_benefits": "Stretches the insides and backs of the legs.  Stimulates the abdominal organs.  Strengthens the spine.  Calms the brain.  Releases groin."
+      }
+    ]
+  },
+  {
+    "category_name": "Hip Opening Yoga",
+    "poses_data": [
+      {
+        "english_name": "Butterfly",
+        "pose_benefits": "Opens the hips and groins.  Stretches the shoulders, rib cage and back.  Stimulates the abdominal organs, lungs and heart."
+      },
+      {
+        "english_name": "Child's Pose",
+        "pose_benefits": "Gently stretches the hips, thighs, and ankles.  Calms the brain and helps relieve stress and fatigue.  Relieves back and neck pain when done with head and torso supported."
+      },
+      {
+        "english_name": "Eagle",
+        "pose_benefits": "Strengthens and stretches the ankles and calves.  Stretches the thighs, hips, shoulders, and upper back.  Improves concentration.  Improves sense of balance."
+      },
+      {
+        "english_name": "Extended Hand to Toe",
+        "pose_benefits": "Opens the hips and groins.  Stretches the hamstrings, IT bands and legs.  Improves balance."
+      },
+      {
+        "english_name": "King Pigeon",
+        "pose_benefits": "Stretches the thighs, groins (psoas), abdomen, chest, shoulders and neck.  Stimulates the abdominal organs.  Opens the shoulders and chest."
+      },
+      {
+        "english_name": "Half Lord of the Fishes",
+        "pose_benefits": "Stretches the shoulders, the chest, the thighs, the groins, and the abdomen.  Strengthens the legs and the ankles.  Improves balance."
+      },
+      {
+        "english_name": "Side Splits",
+        "pose_benefits": "Stretches the insides and backs of the legs.  Stimulates the abdominal organs.  Strengthens the spine.  Calms the brain.  Releases groin."
+      }
+    ]
+  },
+  {
+    "category_name": "Standing Yoga",
+    "poses_data": [
+      {
+        "english_name": "Chair",
+        "pose_benefits": "Strengthens the ankles, thighs, calves, and spine.  Stretches shoulders and chest.  Stimulates the abdominal organs, diaphragm, and heart.  Reduces flat feet.  Energizes the entire body."
+      },
+      {
+        "english_name": "Crescent Lunge",
+        "pose_benefits": "Stretches the rib cage, arms and torso.  Tones the oblique muscles."
+      },
+      {
+        "english_name": "Dolphin",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression. Energizes the body. Stretches the shoulders, hamstrings, calves, arches, and hands. Strengthens the arms and legs. Helps relieve the symptoms of menopause. Relieves menstrual discomfort when done with the head supported. Helps prevent osteoporosis. Improves digestion. Relieves headache, insomnia, back pain, and fatigue. Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis. Warms up the ankles and the toes."
+      },
+      {
+        "english_name": "Downward-Facing Dog",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Energizes the body.  Stretches the shoulders, neck, hamstrings, calves, arches, and hands.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Relieves menstrual discomfort when done with the head supported.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis."
+      },
+      {
+        "english_name": "Eagle",
+        "pose_benefits": "Strengthens and stretches the ankles and calves.  Stretches the thighs, hips, shoulders, and upper back.  Improves concentration.  Improves sense of balance."
+      },
+      {
+        "english_name": "Extended Hand to Toe",
+        "pose_benefits": "Opens the hips and groins.  Stretches the hamstrings, IT bands and legs.  Improves balance."
+      },
+      {
+        "english_name": "Extended Side Angle",
+        "pose_benefits": "Strengthens and stretches the legs, knees, and ankles.  Stretches the groin, spine, waist, chest, lungs, and shoulders. Stimulates abdominal organs. Increases stamina."
+      },
+      {
+        "english_name": "Half-Moon",
+        "pose_benefits": "Strengthens the abdomen, ankles, thighs, buttocks and spine.  Stretches the groins, hamstrings, calves, shoulders, chest and spine.  Improves coordination and sense of balance.  Helps relieve stress.  Improves digestion."
+      },
+      {
+        "english_name": "Handstand",
+        "pose_benefits": "Strengthens the shoulders, arms and wrists.  Stretches the belly.  Improves sense of balance.  Calms the brain and helps relieve stress and mild depression."
+      },
+      {
+        "english_name": "Low Lunge",
+        "pose_benefits": "Stretches the chest, lungs, neck, belly and groin (psoas).  Strengthens the shoulders, arms and back muscles.  Strengthens and stretches the thighs, calves and ankles."
+      },
+      {
+        "english_name": "Pyramid",
+        "pose_benefits": "Calms the brain.  Stretches the spine, the shoulders, the hips and the hamstrings.  Strengthens the legs.  Stimulates the abdominal organs.  Improves posture and sense of balance.  Improves digestion."
+      },
+      {
+        "english_name": "Reverse Warrior",
+        "pose_benefits": "Strengthens and stretches the legs, knees, and ankles.  Stretches the groin, spine, waist, chest, lungs, and shoulders.  Stimulates abdominal organs.  Increases stamina.  Relieves backaches, especially through second trimester of pregnancy.  Therapeutic for carpal tunnel syndrome, flat feet, infertility, osteoporosis, and sciatica."
+      },
+      {
+        "english_name": "Garland Pose",
+        "pose_benefits": "Stretches the ankles, groins and back torso.  Tones the belly."
+      },
+      {
+        "english_name": "Crescent Moon",
+        "pose_benefits": "Stretches the rib cage, arms and torso.  Tones the oblique muscles."
+      },
+      {
+        "english_name": "Tree",
+        "pose_benefits": "Strengthens the legs, ankles, and feet.  Improves flexibility in the hips and knees.  Improves balance."
+      },
+      {
+        "english_name": "Triangle",
+        "pose_benefits": "Stretches and strengthens the thighs, knees, and ankles.  Stretches the hips, groin, hamstrings, calves, shoulders, chest, and spine.  Stimulates the abdominal organs.  Helps relieve stress.  Improves digestion.  Helps relieve the symptoms of menopause.  Relieves backache, especially through second trimester of pregnancy.  Therapeutic for anxiety, flat feet, infertility, neck pain, osteoporosis, and sciatica."
+      },
+      {
+        "english_name": "Warrior One",
+        "pose_benefits": "Stretches the chest, lungs, shoulders, neck, belly and groin (psoas).  Strengthens the shoulders, arms and back muscles.  Strengthens and stretches the thighs, calves and ankles."
+      },
+      {
+        "english_name": "Warrior Two",
+        "pose_benefits": "Strengthens and stretches the legs and ankles.  Stretches the groin, chest, lungs, and shoulders.  Stimulates abdominal organs.  Increases stamina.  Relieves backaches, especially through second trimester of pregnancy.  Therapeutic for carpal tunnel syndrome, flat feet, infertility, osteoporosis, and sciatica."
+      },
+      {
+        "english_name": "Warrior Three",
+        "pose_benefits": "Strengthens the ankles and legs.  Strengthens the shoulders and muscles of the back.  Tones the abdomen.  Improves balance and posture."
+      }
+    ]
+  },
+  {
+    "category_name": "Restorative Yoga",
+    "poses_data": [
+      {
+        "english_name": "Child's Pose",
+        "pose_benefits": "Gently stretches the hips, thighs, and ankles.  Calms the brain and helps relieve stress and fatigue.  Relieves back and neck pain when done with head and torso supported."
+      },
+      {
+        "english_name": "Corpse",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Relaxes the body.  Reduces headache, fatigue, and insomnia.  Helps to lower blood pressure."
+      }
+    ]
+  },
+  {
+    "category_name": "Arm Balance Yoga",
+    "poses_data": [
+      {
+        "english_name": "Crow",
+        "pose_benefits": "Strengthens arms and wrists.  Stretches the upper back.  Strengthens the abdominal muscles.  Opens the groin.  Tones the abdominal organs."
+      },
+      {
+        "english_name": "Plank",
+        "pose_benefits": "Strengthens the arms, wrists, and spine.  Tones the abdomen."
+      },
+      {
+        "english_name": "Side Plank",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Stretches the shoulders, hamstrings, calves, and arches.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica."
+      },
+      {
+        "english_name": "Wild Thing",
+        "pose_benefits": "Stretches the chest, shoulders, back, and throat.  Strengthens and opens the hips, hip flexors, and thighs."
+      }
+    ]
+  },
+  {
+    "category_name": "Balancing Yoga",
+    "poses_data": [
+      {
+        "english_name": "Eagle",
+        "pose_benefits": "Strengthens and stretches the ankles and calves.  Stretches the thighs, hips, shoulders, and upper back.  Improves concentration.  Improves sense of balance."
+      },
+      {
+        "english_name": "Extended Hand to Toe",
+        "pose_benefits": "Opens the hips and groins.  Stretches the hamstrings, IT bands and legs.  Improves balance."
+      },
+      {
+        "english_name": "Half-Moon",
+        "pose_benefits": "Strengthens the abdomen, ankles, thighs, buttocks and spine.  Stretches the groins, hamstrings, calves, shoulders, chest and spine.  Improves coordination and sense of balance.  Helps relieve stress.  Improves digestion."
+      },
+      {
+        "english_name": "Handstand",
+        "pose_benefits": "Strengthens the shoulders, arms and wrists.  Stretches the belly.  Improves sense of balance.  Calms the brain and helps relieve stress and mild depression."
+      },
+      {
+        "english_name": "Shoulder Stand",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Stimulates the thyroid and prostate glands and abdominal organs.  Stretches the shoulders and neck.  Tones the legs and buttocks.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and alleviates insomnia.  Therapeutic for asthma, infertility, and sinusitis."
+      },
+      {
+        "english_name": "Side Plank",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Stretches the shoulders, hamstrings, calves, and arches.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica."
+      },
+      {
+        "english_name": "Crescent Moon",
+        "pose_benefits": "Stretches the rib cage, arms and torso.  Tones the oblique muscles."
+      },
+      {
+        "english_name": "Tree",
+        "pose_benefits": "Strengthens the legs, ankles, and feet.  Improves flexibility in the hips and knees.  Improves balance."
+      },
+      {
+        "english_name": "Warrior Three",
+        "pose_benefits": "Strengthens the ankles and legs.  Strengthens the shoulders and muscles of the back.  Tones the abdomen.  Improves balance and posture."
+      }
+    ]
+  },
+  {
+    "category_name": "Inversion Yoga",
+    "poses_data": [
+      {
+        "english_name": "Forearm Stand",
+        "pose_benefits": "Strengthens arms and shoulders.  Improves focus and balance.  Stretches the upper and lower back.  Strengthens the abdominal muscles.  Tones the abdominal area."
+      },
+      {
+        "english_name": "Plow",
+        "pose_benefits": "Calms the brain.  Stimulates the abdominal organs and the thyroid glands.  Stretches the shoulders and spine.  Helps relieve the symptoms of menopause.  Reduces stress and fatigue.  Therapeutic for backache, headache, infertility, insomnia,  and sinusitis."
+      },
+      {
+        "english_name": "Shoulder Stand",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Stimulates the thyroid and prostate glands and abdominal organs.  Stretches the shoulders and neck.  Tones the legs and buttocks.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and alleviates insomnia.  Therapeutic for asthma, infertility, and sinusitis."
+      }
+    ]
+  }
+]
