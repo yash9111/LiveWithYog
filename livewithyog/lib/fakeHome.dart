@@ -80,8 +80,8 @@ class CustomDialog extends StatelessWidget {
                 SizedBox(height: 16.0),
                 ListTile(
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => yogScreen()));
+                    // Navigator.push(context,
+                        // MaterialPageRoute(builder: (context) => yogScreen()));
                   },
                   trailing: Icon(Icons.arrow_forward_ios),
                   title: Text(

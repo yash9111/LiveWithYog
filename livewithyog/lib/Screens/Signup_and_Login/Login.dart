@@ -83,7 +83,7 @@ class _loginScreenState extends State<loginScreen> {
                         Color.fromRGBO(146, 163, 253, 1))),
                 onPressed: () async {
                   showLoader();
-                  if (await checkLogin(email, password)) {
+                  if (await checkLogin(email, password,context)) {
                     hideLoader();
                     Navigator.push(
                         context,

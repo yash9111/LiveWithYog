@@ -10,6 +10,7 @@ import 'package:livewithyog/Widgets/CustomButton.dart';
 import 'package:livewithyog/Widgets/CustomTextField.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:livewithyog/Widgets/customDropDown.dart';
 import 'package:provider/provider.dart';
 
 class getInfoScreen extends StatefulWidget {
@@ -29,6 +30,33 @@ class _getInfoScreenState extends State<getInfoScreen> {
     String disease = '';
     String profession = '';
     String goal = '';
+    List<String> genderList = ['Male', 'Female', 'Other'];
+    List<String> deseaseList = [
+      'None',
+      'Asthma',
+      'Diabetes',
+      'Back Pain',
+      'Arthritis',
+      'Anxiety',
+      'Insomnia',
+      'Chronic Pain'
+    ];
+    List<String> professionList = [
+      'Software Eng',
+      'Doctor',
+      'Teacher',
+      'CEO',
+      'Marketing Manager',
+      'Researcher',
+      'Pharmacist',
+      'Financial Analyst',
+      'Librarian',
+      'Police Officer',
+      'Real Estate Agent',
+      'Chef',
+      'Interior Designer'
+    ];
+    List<String> goalList = ['Be fit', 'Lose weight', 'Gain Mass'];
 
     return Scaffold(
       // color: Colors.white,
@@ -60,13 +88,14 @@ class _getInfoScreenState extends State<getInfoScreen> {
             SizedBox(
               height: 20,
             ),
-            customTextField(
+            customDropDown(
               hintText: "Choose Gender",
               icon: 'assets/Icons/2_user_icon.png',
               isPassword: false,
+              dropdownItems: genderList,
               onTextChanged: (text) {
-                // You can do something with the entered text here
                 gender = text;
+                print(text);
               },
             ),
             customTextField(
@@ -79,7 +108,7 @@ class _getInfoScreenState extends State<getInfoScreen> {
               },
             ),
             customTextField(
-              hintText: "Your Weight",
+              hintText: "Weight(Kg)",
               icon: 'assets/Icons/scale_icon.png',
               isPassword: false,
               onTextChanged: (text) {
@@ -88,7 +117,7 @@ class _getInfoScreenState extends State<getInfoScreen> {
               },
             ),
             customTextField(
-              hintText: "Your Height",
+              hintText: "Height(inches)",
               icon: 'assets/Icons/Swap_icon.png',
               isPassword: false,
               onTextChanged: (text) {
@@ -96,7 +125,7 @@ class _getInfoScreenState extends State<getInfoScreen> {
                 height = text;
               },
             ),
-            customTextField(
+            customDropDown(
               hintText: "Deseases",
               icon: 'assets/Icons/Swap_icon.png',
               isPassword: false,
@@ -104,8 +133,9 @@ class _getInfoScreenState extends State<getInfoScreen> {
                 // You can do something with the entered text here
                 disease = text;
               },
+              dropdownItems: deseaseList,
             ),
-            customTextField(
+            customDropDown(
               hintText: "Professions",
               icon: 'assets/Icons/Swap_icon.png',
               isPassword: false,
@@ -113,8 +143,9 @@ class _getInfoScreenState extends State<getInfoScreen> {
                 // You can do something with the entered text here
                 profession = text;
               },
+              dropdownItems: professionList,
             ),
-            customTextField(
+            customDropDown(
               hintText: "Goal",
               icon: 'assets/Icons/Swap_icon.png',
               isPassword: false,
@@ -122,6 +153,7 @@ class _getInfoScreenState extends State<getInfoScreen> {
                 // You can do something with the entered text here
                 goal = text;
               },
+              dropdownItems: goalList,
             ),
             SizedBox(
               height: 20,
@@ -149,11 +181,11 @@ class _getInfoScreenState extends State<getInfoScreen> {
                     showLoader();
                     if (await registerUser(context)) {
                       hideLoader();
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => welcomeScreen (),
-                          ));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => welcomeScreen(),
+                        ));
                     } else {
                       hideLoader();
                       Navigator.pop(context);

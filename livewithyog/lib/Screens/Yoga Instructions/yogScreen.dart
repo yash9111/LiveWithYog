@@ -1,18 +1,37 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:livewithyog/Data/Models/yogaModel.dart';
 import 'package:livewithyog/Screens/Yoga%20Instructions/congoScreen.dart';
 import 'package:livewithyog/Widgets/CustomButton.dart';
+import 'package:livewithyog/Widgets/customButtonReplace.dart';
 
 class yogScreen extends StatefulWidget {
-  const yogScreen({super.key});
+  final Yoga yoga;
+  const yogScreen({super.key, required this.yoga});
 
   @override
-  State<yogScreen> createState() => _yogScreenState();
+  State<yogScreen> createState() => _yogScreenState(yoga);
 }
 
 class _yogScreenState extends State<yogScreen> {
+  Yoga yoga = Yoga(
+      id: 1,
+      englishName: "englishName",
+      sanskritNameAdapted: "sanskritNameAdapted",
+      sanskritName: "sanskritName",
+      translationName: "translationName",
+      poseDescription: "poseDescription",
+      poseBenefits: "poseBenefits",
+      urlSvg: "urlSvg",
+      urlPng: "urlPng",
+      urlSvgAlt: "urlSvgAlt");
+  _yogScreenState(Yoga yoga) {
+    this.yoga = yoga;
+  }
+
   @override
   Widget build(BuildContext context) {
+    List<String> steps = splitString(yoga.poseDescription);
     return Scaffold(
       appBar: AppBar(
         leadingWidth: 40,
@@ -23,10 +42,13 @@ class _yogScreenState extends State<yogScreen> {
             width: 30,
           )
         ],
-        leading: SvgPicture.asset(
-          "assets/Icons/Close-Navs.svg",
-          height: 30,
-          width: 30,
+        leading: GestureDetector(
+          onTap: () => Navigator.pop(context),
+          child: SvgPicture.asset(
+            "assets/Icons/Close-Navs.svg",
+            height: 30,
+            width: 30,
+          ),
         ),
       ),
       body: SingleChildScrollView(
@@ -36,44 +58,38 @@ class _yogScreenState extends State<yogScreen> {
               // mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                SvgPicture.asset(
-                  "assets/Images/yog1.svg",
-                  height: 200,
-                ),
+                Image.network(yoga.urlPng),
                 Text(
-                  'Viparita Karanai',
+                  yoga.englishName,
                   style: TextStyle(
                     color: Color(0xFF1D1517),
                     fontSize: 16,
                     fontFamily: 'Poppins',
                     fontWeight: FontWeight.w600,
-                    height: 0.09,
                   ),
                 ),
                 SizedBox(
                   height: 20,
                 ),
                 Text(
-                  'Period cramps | Twice a day',
+                  yoga.poseBenefits,
                   style: TextStyle(
                     color: Color(0xFF7B6F72),
                     fontSize: 12,
                     fontFamily: 'Poppins',
                     fontWeight: FontWeight.w400,
-                    height: 0.12,
                   ),
                 ),
                 SizedBox(
                   height: 30,
                 ),
                 Text(
-                  'Descriptions',
+                  "Description",
                   style: TextStyle(
                     color: Color(0xFF1D1517),
                     fontSize: 16,
                     fontFamily: 'Poppins',
                     fontWeight: FontWeight.w600,
-                    height: 0.09,
                   ),
                 ),
                 SizedBox(
@@ -85,8 +101,7 @@ class _yogScreenState extends State<yogScreen> {
                     TextSpan(
                       children: [
                         TextSpan(
-                          text:
-                              'Menstruation is not just something that people with a uterus experience for a few days each month. Our periods begin well before we see blood, in the form of period cramps and premenstrual ',
+                          text: yoga.sanskritName,
                           style: TextStyle(
                             color: Color(0xFF7B6F72),
                             fontSize: 12,
@@ -126,7 +141,7 @@ class _yogScreenState extends State<yogScreen> {
                       ),
                     ),
                     Text(
-                      '4 Steps',
+                      '${steps.length} Steps',
                       textAlign: TextAlign.right,
                       style: TextStyle(
                         color: Color(0xFFACA3A5),
@@ -141,20 +156,39 @@ class _yogScreenState extends State<yogScreen> {
                 SizedBox(
                   height: 20,
                 ),
-                stepsList("1", "Spread Your legs",
-                    "Sit onto a folded blanket and stretch your legs out in front of you. If your lower back is rounded, try piling more blankets beneath you or bend your knees"),
-                stepsList("2", "Pile a block",
-                    "Place the bolster perpendicularly across your thighs. Pile a block on top"),
-                stepsList("3", "Adjust Props with blankets",
-                    "Attempt to drape yourself over the props with your forehead on the block. If the props are too low, build them higher with more blankets and more blocks."),
-                stepsList("4", "Let your arm relax",
-                    "Your back will round, but we want to avoid any straining in the neck to do so. Let your arms relax by your sides."),
+                Column(
+                  children: steps.map((step) {
+                    int index = steps.indexOf(step);
+                    String sNo = "${index + 1}";
+
+                    return ListTile(
+                      leading: Text(
+                        sNo,
+                        style: TextStyle(
+                          color: Color(0xFF1D1517),
+                          fontSize: 14,
+                          fontFamily: 'Poppins',
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                      title: Text(
+                        step,
+                        style: TextStyle(
+                          color: Color(0xFF7B6F72),
+                          fontSize: 12,
+                          fontFamily: 'Poppins',
+                          fontWeight: FontWeight.w400,
+                        ),
+                      ),
+                    );
+                  }).toList(),
+                ),
                 Row(
                   children: [
                     SizedBox(
                       width: 20,
                     ),
-                    customButton(
+                    customButtonReplace(
                         text: "Continue",
                         height: 60.0,
                         width: 315.0,
@@ -197,5 +231,16 @@ class _yogScreenState extends State<yogScreen> {
         ),
       ),
     );
+  }
+
+  List<String> splitString(String inputString) {
+    // Split the inputString based on full stops
+    List<String> result = inputString.split('.');
+    print(result);
+    if (result[result.length - 1].isEmpty) {
+      // Remove any empty strings from the end of the list?
+      result.removeLast();
+    }
+    return result;
   }
 }

@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class customTextField extends StatelessWidget {
@@ -7,14 +6,14 @@ class customTextField extends StatelessWidget {
     required this.hintText,
     required this.icon,
     required this.isPassword,
-    required this.onTextChanged, 
+    required this.onTextChanged,
   });
 
   final String hintText;
   final String icon;
   final bool isPassword;
-  final void Function(String) onTextChanged; 
-  
+  final void Function(String) onTextChanged;
+
   @override
   Widget build(BuildContext context) {
     TextEditingController controller = new TextEditingController();
@@ -31,9 +30,13 @@ class customTextField extends StatelessWidget {
                 fillColor: Color.fromRGBO(247, 248, 248, 1),
                 filled: true,
                 hintText: hintText,
-                hintStyle: TextStyle(fontFamily: 'Poppins', fontSize: 12),
+                hintStyle: TextStyle(
+                  fontFamily: 'Poppins',
+                  fontSize: 12,
+                ),
                 alignLabelWithHint: true,
                 // floatingLabelAlignment: FloatingLabelAlignment.center,
+
                 prefixIcon: Container(
                   width: 15.5,
                   height: 15,

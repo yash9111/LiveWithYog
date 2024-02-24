@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:livewithyog/Screens/Dashboard/BottomNavigation.dart';
 import 'package:livewithyog/Widgets/CustomButton.dart';
+import 'package:livewithyog/Widgets/customButtonReplace.dart';
 import 'package:livewithyog/fakeHome.dart';
 
 class congratulationsScreen extends StatelessWidget {
@@ -38,11 +40,11 @@ class congratulationsScreen extends StatelessWidget {
           SizedBox(
             height: 180,
           ),
-          customButton(
+          customButtonReplace(
               text: "Back to Home",
               height: 60.0,
               width: 315.0,
-              onClick: fakeHomeScreen())
+              onClick: bottomNavigation())
         ],
       ),
     );

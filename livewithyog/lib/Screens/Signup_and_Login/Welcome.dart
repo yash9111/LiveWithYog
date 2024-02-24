@@ -1,16 +1,22 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:livewithyog/Data/UserNotifier/userData.dart';
 import 'package:livewithyog/Screens/Dashboard/BottomNavigation.dart';
 import 'package:livewithyog/Widgets/CustomButton.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:livewithyog/Widgets/customButtonReplace.dart';
 import 'package:livewithyog/fakeHome.dart';
+import 'package:provider/provider.dart';
 
 class welcomeScreen extends StatelessWidget {
   const welcomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    UserData userData = Provider.of<UserData>(context, listen: false);
+    // Update user data here
+    String name = userData.firstName;
     return Scaffold(
       body: Container(
         padding: EdgeInsets.only(top: 50, left: 20, right: 20),
@@ -19,7 +25,7 @@ class welcomeScreen extends StatelessWidget {
           SizedBox(
             height: 40,
           ),
-          Text("Welcome, Yashi",
+          Text("Welcome, ${name}",
               style: TextStyle(
                   fontFamily: 'Poppins',
                   fontSize: 15,
@@ -34,11 +40,35 @@ class welcomeScreen extends StatelessWidget {
           SizedBox(
             height: 225,
           ),
-          customButton(
-              text: "Go To Home",
-              height: 60.0,
-              width: 315.0,
-              onClick: fakeHomeScreen())
+          // customButtonReplace(
+          //     text: "Go To Home",
+          //     height: 60.0,
+          //     width: 315.0,
+          //     onClick: bottomNavigation()),,
+
+          Container(
+            height: 60,
+            width: 315,
+            child: ElevatedButton(
+                style: ButtonStyle(
+                    backgroundColor: MaterialStatePropertyAll(
+                        Color.fromRGBO(146, 163, 253, 1))),
+                onPressed: () {
+                  Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => bottomNavigation(),
+                      ));
+                },
+                child: Text(
+                  "Go to Home",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontFamily: 'Poppins',
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold),
+                )),
+          )
         ]),
       ),
     );

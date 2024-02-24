@@ -1,8 +1,9 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, dead_code
 
 import 'dart:ffi';
 
 import 'package:livewithyog/Data/UserNotifier/userData.dart';
+import 'package:livewithyog/Screens/Music/musicScreen.dart';
 import 'package:livewithyog/Screens/Signup_and_Login/GetUserInfo.dart';
 import 'package:livewithyog/Screens/Signup_and_Login/Login.dart';
 import 'package:livewithyog/Widgets/CustomButton.dart';
@@ -11,16 +12,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
-class registerScreen extends StatelessWidget {
+String firstName = "";
+String lastName = "";
+String username = "";
+String password = "";
+
+class registerScreen extends StatefulWidget {
   const registerScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    String firstName = "";
-    String lastName = "";
-    String username = "";
-    String password = "";
+  State<registerScreen> createState() => _registerScreenState();
+}
 
+class _registerScreenState extends State<registerScreen> {
+  bool isChecked = false;
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
@@ -82,25 +89,52 @@ class registerScreen extends StatelessWidget {
                   ),
                   Container(
                     padding: EdgeInsets.all(15),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Container(
-                          height: 16,
-                          width: 16,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              border: Border.all(
-                                  color: Color.fromRGBO(173, 164, 165, 1))),
-                        ),
-                        Text(
-                          "By continuing you accept our Privacy Policy\n and Term of Use",
-                          style: TextStyle(
-                              fontFamily: "Poppins",
-                              fontSize: 10,
-                              color: Color.fromRGBO(173, 164, 165, 1)),
-                        ),
-                      ],
+                    child: GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          isChecked = !isChecked;
+                          print(isChecked);
+                        });
+                      },
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          GestureDetector(
+                            onTap: () {
+                              // setState(() {
+                              isChecked = !isChecked;
+                              // print(isChecked);
+                              // });
+                            },
+                            child: Container(
+                              height: 16,
+                              width: 16,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5),
+                                border: Border.all(
+                                    color: Color.fromRGBO(173, 164, 165, 1)),
+                              ),
+                              child: isChecked
+                                  ? Center(
+                                      child: Icon(
+                                        Icons.check,
+                                        size: 10,
+                                        color: Colors
+                                            .black, // Add the color for the check icon
+                                      ),
+                                    )
+                                  : null, // Render nothing if not checked
+                            ),
+                          ),
+                          Text(
+                            "By continuing you accept our Privacy Policy\n and Term of Use",
+                            style: TextStyle(
+                                fontFamily: "Poppins",
+                                fontSize: 10,
+                                color: Color.fromRGBO(173, 164, 165, 1)),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                   SizedBox(
@@ -111,23 +145,29 @@ class registerScreen extends StatelessWidget {
                     width: 315,
                     child: ElevatedButton(
                         style: ButtonStyle(
-                            backgroundColor: MaterialStatePropertyAll(
-                                Color.fromRGBO(146, 163, 253, 1))),
-                        onPressed: () {
-                          UserData userData =
-                              Provider.of<UserData>(context, listen: false);
-                          userData.updateUserData(
-                            username: username,
-                            hashedPassword: password,
-                            firstName: firstName,
-                            lastName: lastName,
-                          );
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => getInfoScreen(),
-                              ));
-                        },
+                            backgroundColor: isChecked
+                                ? MaterialStatePropertyAll(
+                                    Color.fromRGBO(146, 163, 253, 1))
+                                : MaterialStatePropertyAll(
+                                    Color.fromRGBO(146, 163, 253, 0.5))),
+                        onPressed: isChecked
+                            ? () {
+                                UserData userData = Provider.of<UserData>(
+                                    context,
+                                    listen: false);
+                                userData.updateUserData(
+                                  username: username,
+                                  hashedPassword: password,
+                                  firstName: firstName,
+                                  lastName: lastName,
+                                );
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => getInfoScreen(),
+                                    ));
+                              }
+                            : null,
                         child: Text(
                           "Register",
                           style: TextStyle(

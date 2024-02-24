@@ -5,6 +5,8 @@ import 'package:livewithyog/Screens/HomeScreen/HmeScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:awesome_bottom_bar/widgets/inspired/convex_shape.dart';
+import 'package:livewithyog/Screens/Music/musicScreen.dart';
+import 'package:livewithyog/Screens/Notifications/notificationScreen.dart';
 import 'package:livewithyog/Screens/Profile/profileScreen.dart';
 
 class bottomNavigation extends StatefulWidget {
@@ -16,9 +18,16 @@ class bottomNavigation extends StatefulWidget {
 
 class _bottomNavigationState extends State<bottomNavigation> {
   int selectedIndex = 0;
-  var screens = [homeScreen(), profileScreen(), homeScreen(), profileScreen()];
+  var screens = [
+    homeScreen(),
+    NotificationScreen(),
+    SongsApp(),
+    profileScreen()
+  ];
   var homeIcon = SvgPicture.asset('assets/Icons/Home-Active.svg');
   var profileIcon = SvgPicture.asset('assets/Icons/user_profile.svg');
+  var musicIcon = SvgPicture.asset('assets/Vectors/music.svg');
+  var notificationIcon = SvgPicture.asset('assets/Vectors/notifications.svg');
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,9 +40,9 @@ class _bottomNavigationState extends State<bottomNavigation> {
       ),
       body: screens[selectedIndex],
       bottomNavigationBar: BottomAppBar(
-        shape: ConvexNotchedRectangle(
-          notchSmoothness: NotchSmoothness.smoothEdge,
-        ),
+        // shape: ConvexNotchedRectangle(
+        //   notchSmoothness: NotchSmoothness.smoothEdge,
+        // ),
         // color: Colors.white,
         // elevation: 10,
         child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
@@ -42,17 +51,49 @@ class _bottomNavigationState extends State<bottomNavigation> {
                 selectedIndex = 0;
                 homeIcon = SvgPicture.asset('assets/Icons/Home-Active.svg');
                 profileIcon = SvgPicture.asset('assets/Icons/user_profile.svg');
+                notificationIcon =
+                    SvgPicture.asset('assets/Vectors/notifications.svg');
+                musicIcon = SvgPicture.asset('assets/Vectors/music.svg');
                 setState(() {});
               },
               child: homeIcon),
-          SvgPicture.asset('assets/Icons/activity_icon.svg'),
-          SvgPicture.asset('assets/Icons/camera_icon.svg'),
+          GestureDetector(
+            child: notificationIcon,
+            onTap: () {
+              selectedIndex = 1;
+
+              homeIcon = SvgPicture.asset('assets/Icons/Home.svg');
+              notificationIcon =
+                  SvgPicture.asset('assets/Vectors/notifActive.svg');
+              profileIcon = SvgPicture.asset('assets/Icons/user_profile.svg');
+              musicIcon = SvgPicture.asset('assets/Vectors/music.svg');
+
+              setState(() {});
+            },
+          ),
+          GestureDetector(
+            child: musicIcon,
+            onTap: () {
+              selectedIndex = 2;
+
+              homeIcon = SvgPicture.asset('assets/Icons/Home.svg');
+              notificationIcon =
+                  SvgPicture.asset('assets/Vectors/notifications.svg');
+              profileIcon = SvgPicture.asset('assets/Icons/user_profile.svg');
+              musicIcon = SvgPicture.asset('assets/Vectors/musicActive.svg');
+
+              setState(() {});
+            },
+          ),
           GestureDetector(
               onTap: () {
                 selectedIndex = 3;
                 profileIcon =
                     SvgPicture.asset('assets/Icons/Profile-Active.svg');
                 homeIcon = SvgPicture.asset('assets/Icons/Home.svg');
+                notificationIcon =
+                    SvgPicture.asset('assets/Vectors/notifications.svg');
+                musicIcon = SvgPicture.asset('assets/Vectors/music.svg');
                 setState(() {});
               },
               child: profileIcon),
