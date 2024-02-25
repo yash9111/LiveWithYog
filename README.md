@@ -8,43 +8,24 @@ Welcome to LivewithYog, your personalized yoga companion designed to elevate you
 
 Follow these steps to set up the LivewithYog app locally on your device:
 
-1. **Clone the Repository:** Clone the LivewithYog repository from [GitHub Repository Link](#) to your local machine.
+1. **Clone the Repository:** Clone the LivewithYog repository from [https://github.com/yash9111/LiveWithYog.git](#) to your local machine.
 
 2. **Install Dependencies:**
-   - Navigate to the root directory of the project.
+   - Navigate to the Server Code directory of the project.
    - Run `npm install` to install backend dependencies.
-   - Navigate to the `frontend` directory.
+   - Navigate to the `livewithyog` directory.
    - Run `flutter pub get` to install frontend dependencies.
 
-3. **Set Up Environment Variables:** Create a `.env` file in the root directory and add necessary environment variables such as database credentials, API keys, etc.
-
-4. **Start the Backend Server:** 
+3. **Start the Backend Server:** 
    - In the root directory, run `npm start` to start the Node.js backend server.
 
-5. **Run the Frontend:**
-   - Navigate to the `frontend` directory.
+4. **Run the Frontend:**
+   - Navigate to the `livewithyog` directory.
    - Run `flutter run` to start the Flutter frontend application.
 
-6. **Explore LivewithYog:** Open the LivewithYog app on your device and begin your wellness journey!
+5. **Explore LivewithYog:** Open the LivewithYog app on your device and begin your wellness journey!
 
-### Screenshots
-<div align=center>
-<img src="Scrrenshots/1.jpg" width = "200" />
-<img src="Scrrenshots/2.jpg" width = "200" />
-<img src="Scrrenshots/3.jpg" width = "200" />
-<img src="Scrrenshots/4.jpg" width = "200" />
-<img src="Scrrenshots/5.jpg" width = "200" />
-<img src="Scrrenshots/6.jpg" width = "200" />
-<img src="Scrrenshots/7.jpg" width = "200" />
-<img src="Scrrenshots/8.jpg" width = "200" />
-<img src="Scrrenshots/9.jpg" width = "200" />
-<img src="Scrrenshots/10.jpg" width = "200" />
-<img src="Scrrenshots/11.jpg" width = "200" />
-<img src="Scrrenshots/12.jpg" width = "200" />
-<img src="Scrrenshots/13.jpg" width = "200" />
-<img src="Scrrenshots/14.jpg" width = "200" />
 
-</div>
 
 ## Let's Get Started
 
@@ -59,6 +40,49 @@ Follow these steps to set up the LivewithYog app locally on your device:
 5. **Join Our Community:** Engage with a vibrant community of like-minded individuals. Share your experiences, seek advice, and inspire others on their wellness journey. Together, we create a supportive environment where everyone thrives.
 
 Ready to embark on a transformative journey with LivewithYog? Let's take the first step towards holistic well-being together. Download the LivewithYog app now and embrace the endless possibilities of your yoga journey!
+
+## Screenshots of Project
+
+### Login & Sign-up
+<div align=center>
+<img src="Scrrenshots/1.jpg" width = "200" />
+<img src="Scrrenshots/3.jpg" width = "200" />
+<img src="Scrrenshots/4.jpg" width = "200" />
+<img src="Scrrenshots/7.jpg" width = "200" />
+<img src="Scrrenshots/login.jpg" width = "200" />
+<img src="Scrrenshots/5.jpg" width = "200" />
+</div>
+
+### Home Screen
+<div align=center>
+
+<img src="Scrrenshots/home.jpg" width = "200" />
+<img src="Scrrenshots/6.jpg" width = "200" />
+</div>
+
+### Daily Yoga Routine
+
+<div align=center>
+
+<img src="Scrrenshots/8.jpg" width = "200" />
+<img src="Scrrenshots/9.jpg" width = "200" />
+<img src="Scrrenshots/10.jpg" width = "200" />
+<img src="Scrrenshots/11.jpg" width = "200" />
+</div>
+
+### Relaxing Music
+<div align=center>
+
+<img src="Scrrenshots/12.jpg" width = "200" />
+<img src="Scrrenshots/13.jpg" width = "200" />
+<img src="Scrrenshots/player.jpg" width = "200" />
+
+</div>
+
+### User Profile
+
+<div align=center>
+<img src="Scrrenshots/14.jpg" width = "200" />
 
 ## Tech Stack:
 
